@@ -22,3 +22,22 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+build
+
+# project specific
+src/rs/ac/bg/etf/pp1/ast
+src/rs/ac/bg/etf/pp1/sym.java
+src/rs/ac/bg/etf/pp1/Yylex.java
+test/*.obj
+
+
