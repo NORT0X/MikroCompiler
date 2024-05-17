@@ -32,7 +32,6 @@ replay_pid*
 .springBeans
 .sts4-cache
 bin/
-build
 
 # project specific
 src/rs/ac/bg/etf/pp1/ast
