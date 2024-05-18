@@ -36,16 +36,16 @@ It's quite easy to build and run the project. All you have to do is to open a te
 
 First, you have to build the lexer and run the JFlex tool:
 
-`$ ant lexerGen`
+``` ant lexerGen ```
 
 After that, you can generate parser with CUP and build JAR file:
 
-`$ ant create-jar`
+``` ant create-jar ```
 
 Now you can run MJCompiler.jar with a specific test like this:
 
-`$ java -jar MJCompiler.jar test303`
+``` java -jar MJCompiler.jar test303 ```
 
 Compiler will compile test303.mj into program.obj. To run this program, all you have to do is:
 
-`$ ant runObj`
+``` ant runObj ```
